@@ -1,8 +1,8 @@
 # trabajo en proceso 
 
 #1ero: verificar instalación de python y pip:
-python --version
-pip --version
+#python --version
+#pip --version
 
 #2do: 2do: instalar virtualenvwrapper-win (para quienes usan windows):
 pip install virtualenvwrapper-win
