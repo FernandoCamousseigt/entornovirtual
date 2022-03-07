@@ -12,11 +12,12 @@ pip install virtualenvwrapper-win
 3ro (opcional): verificar instalación de virtualenvwrapper-win:    
 virtualenvwrapper-win --version
 
-4TO:crear entorno:  mkvirtualenv nombre-del-entorno-virtual (se recomienda sin guion ni tildes)
+#4TO:crear entorno:  mkvirtualenv nombre-del-entorno-virtual (se recomienda sin guion ni tildes)
 
 #en el requirement-(entorno).txt  se escribe Django==3.0  para luego escribir en la consola pip install -r requirements-(entornocorrespondiente).txt
-# si se quiere Django 3.2.4 entonces en el txt cambiarlo por esa version y realizar el pip install -r requirements-(entornocorrespondiente).txt
-
+# si se quiere Django 3.2.4 entonces en el txt cambiarlo por esa version y realizar el pip install -r requirements-(entornocorrespondiente).txt, en este caso: 
+requirements-ferreteria.txt  => Django==3.2.4
+pip install -r requirements-ferreteria.txt
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
 #workon: permite activar(o “entrar” en) un entorno virtual existente especificando su
