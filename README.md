@@ -19,13 +19,13 @@ virtualenvwrapper-win --version
 requirements-ferreteria.txt  => Django==3.2.4
 pip install -r requirements-ferreteria.txt
 
-#-------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------
 #workon: permite activar(o “entrar” en) un entorno virtual existente especificando su
 nombre
 #deactivate : permite desactivar(o “salir” de) el entorno virtual activado, volviendo a darle
 preferencia a las dependencias instaladas en el sistema
 
-#-------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------
 Los comandos más utilizados serán:
 ● pip install -r requirements.txt -> para instalar las dependencias desde un archivo
 ● pip freeze > requirements.txt -> para generar un respaldo de los paquetes instalados creando un
