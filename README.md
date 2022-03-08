@@ -14,7 +14,8 @@ virtualenvwrapper-win --version
 
 #4TO:crear entorno:  mkvirtualenv nombre-del-entorno-virtual (se recomienda sin guion ni tildes)
 
-5to: pip install django  
+5to: pip install django
+#para una version especifica con ==. ej: pip install django==3.2.4
 
 #5.5 conocer version: python -m django version
 # o python -m django-admin version
