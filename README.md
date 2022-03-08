@@ -17,6 +17,7 @@ virtualenvwrapper-win --version
 5to: pip install django  
 
 #5.5 conocer version: python -m django version
+# o python -m django-admin version
 
 #6to. opcion requirements, donde se especifican las dependencias: 
 #en el requirement-(entorno).txt  se escribe Django==3.0  para luego escribir en la consola pip install -r requirements-(entornocorrespondiente).txt
