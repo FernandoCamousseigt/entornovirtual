@@ -22,6 +22,8 @@ virtualenvwrapper-win --version
 requirements-ferreteria.txt  => Django==3.2.4
 pip install -r requirements-ferreteria.txt
 
+#Listar todos los entornos creados con el comando: lsvirtualenv
+
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #workon: permite activar(o “entrar” en) un entorno virtual existente especificando su
 nombre
