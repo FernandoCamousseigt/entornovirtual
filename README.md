@@ -38,3 +38,4 @@ Los comandos más utilizados serán:
 archivo requirements.txt
 ● pip install astral==2.2 -> para instalar una versión específica de un paquete que necesitemos, en
 este ejemplo astral 2.2
+#rmvirtualenv mientorno:  para eliminar el ambiente mientorno
