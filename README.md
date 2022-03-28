@@ -36,7 +36,7 @@ nombre
 preferencia a las dependencias instaladas en el sistema
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
-Los comandos más utilizados serán:
+ Los comandos más utilizados serán:
 ●  pip install -r requirements.txt -> para instalar las dependencias desde un archivo
 ● pip freeze > requirements.txt -> para generar un respaldo de los paquetes instalados creando un
 archivo requirements.txt
