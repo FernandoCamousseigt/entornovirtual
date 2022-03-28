@@ -27,7 +27,7 @@ requirements-ferreteria.txt  => Django==3.2.4
 pip install -r requirements-ferreteria.txt
 
 #Listar todos los entornos creados con el comando: lsvirtualenv
-# o también se puede usar el comando: workon  
+#o también se puede usar el comando: workon  
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #workon: permite activar(o “entrar” en) un entorno virtual existente especificando su
