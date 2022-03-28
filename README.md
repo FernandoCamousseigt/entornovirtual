@@ -1,5 +1,3 @@
-# trabajo en proceso 
-
 #1ero: verificar instalación de python y pip:
 #python --version
 #pip --version
