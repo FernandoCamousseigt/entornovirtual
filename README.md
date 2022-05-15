@@ -7,7 +7,7 @@ pip install virtualenvwrapper-win
 
 (caso linux: sudo pip install virtualenvwrapper )
 
-3ro (opcional): verificar instalación de virtualenvwrapper-win:    
+#3ro (opcional): verificar instalación de virtualenvwrapper-win:    
 virtualenvwrapper-win --version
 
 #4TO:crear entorno:  mkvirtualenv nombre-del-entorno-virtual (se recomienda sin guion ni tildes)
@@ -18,11 +18,12 @@ virtualenvwrapper-win --version
 #5.5 conocer version: python -m django version
 #o python -m django-admin version
 
-# 6to. opcion requirements, donde se especifican las dependencias: 
-# en el requirement-(entorno).txt  se escribe Django==3.0  para luego escribir en la consola pip install -r requirements-(entornocorrespondiente).txt
-#si se quiere Django 3.2.4 entonces en el txt cambiarlo por esa version y realizar el pip install -r requirements-(entornocorrespondiente).txt, en este caso: 
-requirements-ferreteria.txt  => Django==3.2.4
-pip install -r requirements-ferreteria.txt
+#6to si se quiere crear un requirements.txt:
+pip freeze > requirements.txt -> para generar un respaldo de los paquetes instalados creando un
+archivo requirements.txt
+
+# 7mo. instalar las dependencias desde un requirements, donde se especifican las dependencias: 
+# en la consola pip install -r requirements-(entornocorrespondiente).txt
 
 #Listar todos los entornos creados con el comando: lsvirtualenv
 #o también se puede usar el comando: workon  
