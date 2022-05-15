@@ -22,8 +22,8 @@ virtualenvwrapper-win --version
 pip freeze > requirements.txt -> para generar un respaldo de los paquetes instalados creando un
 archivo requirements.txt
 
-# 7mo. instalar las dependencias desde un requirements, donde se especifican las dependencias: 
-# en la consola pip install -r requirements-(entornocorrespondiente).txt
+#7mo. instalar las dependencias desde un requirements, donde se especifican las dependencias: 
+#en la consola pip install -r requirements-(entornocorrespondiente).txt
 
 #Listar todos los entornos creados con el comando: lsvirtualenv
 #o también se puede usar el comando: workon  
